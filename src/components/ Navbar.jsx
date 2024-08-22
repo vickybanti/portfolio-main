@@ -197,7 +197,7 @@ function Navbar() {
                   </TwitterButton>
                 </Link>
                 <Link
-                  href="https://www.linkedin.com/in/olamuyiwavictor"
+                  href="https://www.linkedin.com/in/olamuyiwaV"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -222,8 +222,8 @@ function Navbar() {
         </Links>
         <Icons>
           <Link
-            href="https://docs.google.com/document/d/e/2PACX-1vQa6tQqb_yJygmljRbBKH8QKtWWeqfTCunW0vY5hs6n3UeLwKX_wiHqgthADmnTCd8lQyMrTiYg58MC/pub"
-            target="_blank"
+                      href="https://docs.google.com/document/d/1MldjLofHmZolOMOur0DD0RcSl-eoYGnAuGnyo2U7_Sw/edit?usp=sharing"
+target="_blank"
             rel="noopener noreferrer"
           >
             <StyledButton>View Resume</StyledButton>
