@@ -4,35 +4,35 @@ import styled from "styled-components";
 const projects = [
     {
         id: 1,
-        image: "./images/store/M1.png",
+        image: "./images/store/M1.PNG",
     },
     {
         id: 2,
-        image: "./images/store/M2.png",
+        image: "./images/store/M2.PNG",
     },
     {
         id: 3,
-        image: "./images/store/M3.png",
+        image: "./images/store/M3.PNG",
     },
     {
         id: 4,
-        image: "./images/store/M4.png",
+        image: "./images/store/M4.PNG",
     },
     {
         id: 5,
-        image: "./images/store/M5.png",
+        image: "./images/store/M5.PNG",
     },
     {
         id: 6,
-        image: "./images/store/M6.png",
+        image: "./images/store/M6.PNG",
     },
     {
         id: 7,
-        image: "./images/store/M7.png",
+        image: "./images/store/M7.PNG",
     },
     {
         id: 8,
-        image: "./images/store/M8.png",
+        image: "./images/store/M8.PNG",
     },
  
 ];

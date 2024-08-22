@@ -186,7 +186,7 @@ function Navbar() {
             <ListItem>
               <SocialLinks>
                 <Link
-                  href="https://twitter.com/OlamuyiwaV"
+                  href="https://twitter.com/Olamuyiwavicto3"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link"
