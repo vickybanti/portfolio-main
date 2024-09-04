@@ -292,6 +292,7 @@ const Desc = styled.p`
   @media only screen and (max-width: 768px) and (min-width: 422px) {
     font-size: 0.8rem;
     padding: 0 1rem;
+    margin-top:-50px;
   }
   @media only screen and (max-width: 1024px) and (min-width: 769px) {
     font-size: 1em;

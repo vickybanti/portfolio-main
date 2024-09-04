@@ -172,18 +172,18 @@ const Desc = styled.p`
   @media only screen and (max-width: 280px) {
     padding: 10px;
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
   }
 
   @media only screen and (max-width: 320px) and (min-width: 281px) {
     padding: 15px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
   }
   @media only screen and (max-width: 768px) and (min-width: 321px) {
     padding: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -207,10 +207,10 @@ const Skill = styled.span`
   color: #da4ea2;
   font-size: 1.0rem;
   @media only screen and (max-width: 280px) {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   @media only screen and (max-width: 768px) and (min-width: 281px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   @media only screen and (max-width: 820px) and (min-width: 769px) {
     font-size: 1.2rem;
