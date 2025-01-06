@@ -60,19 +60,19 @@ const CarouselContainer = styled.div`
 
   @media only screen and (max-width: 320px) and (min-width: 281px) {
     height: 9.5rem;
-    width: 17.2rem;
+    width: 15rem;
     top: -500px;
   }
 
   @media only screen and (min-width: 360px) and (max-width: 360px) and (min-height: 640px) and (max-height: 640px) {
     height: 10rem;
-    width: 20rem;
+    width: 18rem;
     top: -450px;
   }
 
   @media only screen and (min-width: 360px) and (max-width: 360px) and (min-height: 740px) and (max-height: 740px) {
     height: 10rem;
-    width: 20rem;
+    width: 18rem;
     top: -600px;
   }
 
@@ -83,12 +83,12 @@ const CarouselContainer = styled.div`
   }
   @media only screen and (max-width: 393px) and (min-width: 376px) {
     height: 11rem;
-    width: 22rem;
+    width: 20rem;
     top: -550px;
   }
   @media only screen and (max-width: 420px) and (min-width: 394px) {
     height: 11rem;
-    width: 22rem;
+    width: 20rem;
     top: -800px;
   }
   @media only screen and (max-width: 540px) and (min-width: 422px) {
@@ -293,6 +293,8 @@ const Desc = styled.p`
   @media only screen and (max-width: 768px) and (min-width: 422px) {
     font-size: 0.8rem;
     padding: 0 1rem;
+    margn-top:-150px;
+    font-size:white;
     
   }
   @media only screen and (max-width: 1024px) and (min-width: 769px) {

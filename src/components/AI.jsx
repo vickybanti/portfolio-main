@@ -4,19 +4,31 @@ import styled from "styled-components";
 const projects = [
   {
     id: 1,
-    image: "https://imgur.com/oNNycfs.png",
+    image: "./images/foodapp/1.png",
   },
   {
     id: 2,
-    image: "https://imgur.com/s01FC1N.png",
+    image: "./images/foodapp/2.png",
   },
   {
     id: 3,
-    image: "https://imgur.com/U22xYsh.png",
+    image: "./images/foodapp/3.png",
   },
   {
     id: 4,
-    image: "https://imgur.com/zWXvJTY.png",
+    image: "./images/foodapp/4.png",
+  },
+  {
+    id: 5,
+    image: "./images/foodapp/5.png",
+  },
+  {
+    id: 6,
+    image: "./images/foodapp/6.png",
+  },
+  {
+    id: 7,
+    image: "./images/foodapp/7.png",
   },
 ];
 
@@ -271,7 +283,8 @@ const Desc = styled.p`
   @media only screen and (max-width: 420px) {
     font-size: 0.8rem;
     padding: 0 1rem;
-    margin-top:-50px;
+    margin-top:-150px;
+    color:white;
   }
   @media only screen and (max-width: 768px) and (min-width: 422px) {
     font-size: 0.8rem;
@@ -323,26 +336,24 @@ function AI() {
             rel="noopener noreferrer"
             style={{ textDecoration: "none", textTransform: "uppercase" }}
           >
-            <CardTitle>3D AI Shirt Generator</CardTitle>
+            <CardTitle>Food App</CardTitle>
           </a>
           <Desc>
-            This project is an immersive web application that empowers users to
-            customize 3D shirt models using a powerful tech stack. The frontend
-            is built using Vite, React, and Tailwind CSS, while the backend is
-            developed with Express and Node.js. Additionally, the TryLeap AI API
-            is seamlessly integrated to generate dynamic shirt designs and
-            colors.
+          Foodie Delight is a sleek food ordering app built with Next.js, Tailwind CSS, and MongoDB. 
+          It offers a responsive design, fast navigation, real-time order tracking, 
+          and secure user authentication.
+           Perfect for seamless browsing, ordering, and managing food deliveries.
           </Desc>
           <ProjectLinks>
             <a
-              href="https://github.com/Nuellity/Threejs-AI-React"
+              href="https://github.com/vickybanti/Food-app.git"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Link src="./images/github.png" />
             </a>
             <a
-              href="https://threejs-ai-react.vercel.app/"
+              href="https://food-app-nine-lilac.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -4,7 +4,7 @@ import Store from "./Store";
 import Web3 from "./Web3";
 import AI from "./AI";
 
-const data = ["E-commerce Site", "PERN Shopping", "3D AI Shirt"];
+const data = ["E-commerce Site", "PERN Shopping", "Food App"];
 
 const Section = styled.div`
   height: 100vh;
@@ -25,6 +25,7 @@ const Container = styled.div`
   @media only screen and (max-width: 768px) {
     width: 100%;
     flex-direction: column;
+    margin-top:10px;
   }
   @media only screen and (max-width: 1024px) and (min-width: 769px) {
     width: 100%;
