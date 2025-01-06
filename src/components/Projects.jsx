@@ -118,10 +118,7 @@ const Right = styled.div`
     display: block;
   }
 
-   @media only screen and (max-width: 768px) and (min-width: 320px) {
-    width:50%;
-    display: block;
-  }
+  
 
 `;
 
