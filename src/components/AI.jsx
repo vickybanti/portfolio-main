@@ -137,6 +137,11 @@ const CarouselCard = styled.div`
   height: 100%;
   background-color: #f8f8f8;
   margin: auto;
+
+   @media only screen and (max-width: 768px) and (min-width: 422px) {
+    width: 75%;
+  }
+  
 `;
 
 const CardImage = styled.img`
@@ -283,7 +288,7 @@ const Desc = styled.p`
   @media only screen and (max-width: 420px) {
     font-size: 0.8rem;
     padding: 0 1rem;
-    margin-top:-150px;
+    margin-top:-145px;
     color:white;
   }
   @media only screen and (max-width: 768px) and (min-width: 422px) {

@@ -145,24 +145,24 @@ const CarouselContainer = styled.div`
 
   @media only screen and (min-width: 360px) and (max-width: 360px) and (min-height: 640px) and (max-height: 640px) {
     height: 10rem;
-    width: 20rem;
+    width: 12rem;
     top: -450px;
   }
 
   @media only screen and (min-width: 360px) and (max-width: 360px) and (min-height: 740px) and (max-height: 740px) {
     height: 10rem;
-    width: 20rem;
+    width: 12rem;
     top: -600px;
   }
 
   @media only screen and (max-width: 375px) and (min-width: 361px) {
     height: 11rem;
-    width: 22rem;
+    width: 12rem;
     top: -500px;
   }
   @media only screen and (max-width: 393px) and (min-width: 376px) {
     height: 11rem;
-    width: 22rem;
+    width: 12rem;
     top: -550px;
   }
   @media only screen and (max-width: 420px) and (min-width: 394px) {
@@ -172,7 +172,7 @@ const CarouselContainer = styled.div`
   }
   @media only screen and (max-width: 540px) and (min-width: 422px) {
     height: 15rem;
-    width: 30rem;
+    width: 20rem;
     top: -450px;
   }
   @media only screen and (max-width: 712px) and (min-width: 541px) {
@@ -207,6 +207,7 @@ const CarouselWrapper = styled.div`
   height: 100%;
   transform: translateX(-${({ activeIndex }) => activeIndex * 100}%);
   transition: transform 0.5s;
+  
 `;
 
 const CarouselCard = styled.div`
@@ -367,7 +368,8 @@ const Desc = styled.p`
   @media only screen and (max-width: 420px) {
     font-size: 0.8rem;
     padding: 0 1rem;
-     margin-top:-150px
+     margin-top:-145px;
+     color:white;
   }
   @media only screen and (max-width: 768px) and (min-width: 422px) {
     font-size: 0.8rem;

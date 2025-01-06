@@ -54,41 +54,41 @@ const CarouselContainer = styled.div`
 
   @media only screen and (max-width: 280px) {
     height: 9.5rem;
-    width: 15rem;
+    width: 10rem;
     top: -500px;
   }
 
   @media only screen and (max-width: 320px) and (min-width: 281px) {
     height: 9.5rem;
-    width: 15rem;
+    width: 10rem;
     top: -500px;
   }
 
   @media only screen and (min-width: 360px) and (max-width: 360px) and (min-height: 640px) and (max-height: 640px) {
     height: 10rem;
-    width: 18rem;
+    width: 12rem;
     top: -450px;
   }
 
   @media only screen and (min-width: 360px) and (max-width: 360px) and (min-height: 740px) and (max-height: 740px) {
     height: 10rem;
-    width: 18rem;
+    width: 12rem;
     top: -600px;
   }
 
   @media only screen and (max-width: 375px) and (min-width: 361px) {
     height: 11rem;
-    width: 22rem;
+    width: 12rem;
     top: -500px;
   }
   @media only screen and (max-width: 393px) and (min-width: 376px) {
     height: 11rem;
-    width: 20rem;
+    width: 15rem;
     top: -550px;
   }
   @media only screen and (max-width: 420px) and (min-width: 394px) {
     height: 11rem;
-    width: 20rem;
+    width: 15rem;
     top: -800px;
   }
   @media only screen and (max-width: 540px) and (min-width: 422px) {
