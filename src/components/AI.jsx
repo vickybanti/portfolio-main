@@ -4,31 +4,31 @@ import styled from "styled-components";
 const projects = [
   {
     id: 1,
-    image: "./images/foodapp/1.png",
+    image: "./images/foodapp/1.PNG",
   },
   {
     id: 2,
-    image: "./images/foodapp/2.png",
+    image: "./images/foodapp/2.PNG",
   },
   {
     id: 3,
-    image: "./images/foodapp/3.png",
+    image: "./images/foodapp/3.PNG",
   },
   {
     id: 4,
-    image: "./images/foodapp/4.png",
+    image: "./images/foodapp/4.PNG",
   },
   {
     id: 5,
-    image: "./images/foodapp/5.png",
+    image: "./images/foodapp/5.PNG",
   },
   {
     id: 6,
-    image: "./images/foodapp/6.png",
+    image: "./images/foodapp/6.PNG",
   },
   {
     id: 7,
-    image: "./images/foodapp/7.png",
+    image: "./images/foodapp/7.PNG",
   },
 ];
 
