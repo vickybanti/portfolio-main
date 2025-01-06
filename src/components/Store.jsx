@@ -133,15 +133,15 @@ const CarouselContainer = styled.div`
 
   // Mobile-first responsive design
   @media (max-width: 480px) {
-    height: 10rem;
-    width: 15rem;
-    top: -500px;
+    height: 12rem;
+    width: 20rem;
+    top: -200px;
   }
 
   @media (min-width: 481px) and (max-width: 768px) {
-    height: 15rem;
-    width: 25rem;
-    top: -600px;
+    height: 20rem;
+    width: 30rem;
+    top: -300px;
   }
 
   @media (min-width: 769px) and (max-width: 1024px) {
