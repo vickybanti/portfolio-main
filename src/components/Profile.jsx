@@ -327,23 +327,23 @@ function Profile() {
           <Desc>
             With a diverse skill set encompassing <Skill>HTML</Skill>, {""}
             <Skill>CSS</Skill>, <Skill>JavaScript</Skill>,{" "}
-            <Skill>Typescript</Skill>, <Skill>Solidity</Skill>{" "}
+            <Skill>Typescript</Skill>, <Skill>Next js</Skill>{" "}
             <Skill>Node.js</Skill>, <Skill>React</Skill>,{" "}
             <Skill>Express.js</Skill>, <Skill>Redux</Skill>,{" "}
             <Skill>MongoDB</Skill>, <Skill>Material-UI</Skill>,{" "}
             <Skill>Bootstrap</Skill>, <Skill>Styled-Components</Skill>,
-            <Skill>Firebase</Skill>, <Skill>JWT</Skill>, <Skill>Python</Skill>.
-            and <Skill>Git</Skill>, I am a highly versatile web developer. I
+            <Skill>Tailwind Css</Skill>, <Skill>JWT</Skill>, <Skill>Python</Skill>.
+            <Skill>Git</Skill>,<Skill>Sass</Skill>, <Skill>Firebase</Skill>, I am a highly versatile web developer. I
             excel in crafting well-structured web pages, creating dynamic user
             experiences, and developing scalable server-side applications. With
-            expertise in <Skill>React</Skill> and <Skill>Redux</Skill>, I build
+            expertise in <Skill>Next js</Skill>,<Skill>React</Skill> and <Skill>Redux</Skill>, I build
             interactive interfaces and ensure smooth state management. I
             leverage <Skill>MongoDB</Skill> and <Skill>PostgreSQL</Skill>for efficient data operations,{" "}
             <Skill>Material-UI</Skill> and <Skill>Bootstrap</Skill> for visually
             appealing designs, and <Skill>Styled-Components</Skill> for modular
             styling. Additionally, my proficiency in <Skill>Firebase</Skill>{" "}
             enables seamless integration of real-time database management and
-            authentication, including <Skill>JWT</Skill>-based token
+            authentication, including <Skill>Next Auth</Skill>,<Skill>JWT</Skill>-based token
             authentication for secure user sessions. With <Skill>Git</Skill>, I
             ensure efficient collaboration and code management. Overall, my
             versatile skill set allows me to adapt to various web development
