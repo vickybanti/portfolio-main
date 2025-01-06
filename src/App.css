@@ -22,4 +22,7 @@
   .link {
     display: none;
   }
+  .desc{
+    margin-bottom: 20px;
+  }
 }

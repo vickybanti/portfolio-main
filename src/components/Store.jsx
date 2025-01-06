@@ -367,7 +367,7 @@ const Desc = styled.p`
   @media only screen and (max-width: 420px) {
     font-size: 0.8rem;
     padding: 0 1rem;
-     margin-top:-50px
+     margin-top:-150px
   }
   @media only screen and (max-width: 768px) and (min-width: 422px) {
     font-size: 0.8rem;
