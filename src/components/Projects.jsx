@@ -3,8 +3,9 @@ import styled from "styled-components";
 import Store from "./Store";
 import Web3 from "./Web3";
 import AI from "./AI";
+import Prolinks from "./Prolinks";
 
-const data = ["E-commerce Site", "PERN Shopping", "Food App"];
+const data = ["E-commerce Site", "PERN Shopping", "Food App", "prolinks"];
 
 const Section = styled.div`
   height: 100vh;
@@ -144,8 +145,11 @@ function Projects() {
                       work === "PERN Shopping" ? (
                           <Web3 />
                       ) :
+                      work === "Food App" ? (
+                          <AI />
+                      ) :
           (
-            <AI />
+            <Prolinks />
           )}
         </Right>
       </Container>

@@ -4,32 +4,49 @@ import styled from "styled-components";
 const projects = [
   {
     id: 1,
-    image: "./images/foodapp/1.PNG",
+    image: "./images/prolinks/Screenshot (24).PNG",
   },
   {
     id: 2,
-    image: "./images/foodapp/2.PNG",
+    image: "./images/foodapp/Screenshot (25).PNG",
   },
   {
     id: 3,
-    image: "./images/foodapp/3.PNG",
+    image: "./images/foodapp/Screenshot (26).PNG",
   },
   {
     id: 4,
-    image: "./images/foodapp/4.PNG",
+    image: "./images/foodapp/Screenshot (27).PNG",
   },
   {
     id: 5,
-    image: "./images/foodapp/5.PNG",
+    image: "./images/foodapp/Screenshot (28).PNG",
   },
   {
     id: 6,
-    image: "./images/foodapp/6.PNG",
+    image: "./images/foodapp/Screenshot (29).PNG",
   },
   {
     id: 7,
-    image: "./images/foodapp/7.PNG",
+    image: "./images/foodapp/Screenshot (31).PNG",
   },
+  {
+    id: 7,
+    image: "./images/foodapp/Screenshot (32).PNG",
+  },
+  {
+    id: 7,
+    image: "./images/foodapp/Screenshot (33).PNG",
+  },
+  {
+    id: 7,
+    image: "./images/foodapp/Screenshot (34).PNG",
+  },
+  {
+    id: 7,
+    image: "./images/foodapp/Screenshot (35).PNG",
+  },
+  
 ];
 const CarouselContainer = styled.div`
   display: flex;
@@ -250,7 +267,7 @@ const Desc = styled.p`
   }
 `;
 
-function AI() {
+function Prolinks() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handlePrevClick = () => {
@@ -285,29 +302,29 @@ function AI() {
         </CarouselContainer>
         <Details>
           <a
-            href="https://food-app-nine-lilac.vercel.app/.vercel.app/"
+            href="https://prolinks.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none", textTransform: "uppercase" }}
           >
-            <CardTitle>Food App</CardTitle>
+            <CardTitle>Prolinks projects</CardTitle>
           </a>
           <Desc>
-          Foodie Delight is a sleek food ordering app built with Next.js, Tailwind CSS, and MongoDB. 
-          It offers a responsive design, fast navigation, real-time order tracking, 
-          and secure user authentication.
-           Perfect for seamless browsing, ordering, and managing food deliveries.
+        This is a web application designed for an architectural company to showcase their portfolio of projects. 
+        The application features a carousel of project images, allowing users to navigate through different projects.
+         Each project includes links to the project's GitHub repository and a live demo. 
+         The design is responsive, ensuring a seamless experience across various devices.
           </Desc>
           <ProjectLinks>
             <a
-              href="https://github.com/vickybanti/Food-app.git"
+              href="https://github.com/vickybanti/Prolinks.git"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Link src="./images/github.png" />
             </a>
             <a
-              href="https://food-app-nine-lilac.vercel.app/"
+              href="https://prolinks.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -320,4 +337,4 @@ function AI() {
   );
 }
 
-export default AI;
+export default Prolinks;
