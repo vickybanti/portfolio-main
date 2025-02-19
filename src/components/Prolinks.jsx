@@ -4,47 +4,71 @@ import styled from "styled-components";
 const projects = [
   {
     id: 1,
-    image: "./images/prolinks/Screenshot (24).PNG",
+    image: "./images/prolinks/24.PNG",
   },
   {
     id: 2,
-    image: "./images/foodapp/Screenshot (25).PNG",
+    image: "./images/prolinks/25.PNG",
   },
   {
     id: 3,
-    image: "./images/foodapp/Screenshot (26).PNG",
+    image: "./images/prolinks/26.PNG",
   },
   {
     id: 4,
-    image: "./images/foodapp/Screenshot (27).PNG",
+    image: "./images/prolinks/27.PNG",
   },
   {
     id: 5,
-    image: "./images/foodapp/Screenshot (28).PNG",
+    image: "./images/prolinks/28.PNG",
   },
   {
     id: 6,
-    image: "./images/foodapp/Screenshot (29).PNG",
+    image: "./images/prolinks/29.PNG",
   },
   {
     id: 7,
-    image: "./images/foodapp/Screenshot (31).PNG",
+    image: "./images/prolinks/31.PNG",
   },
   {
     id: 7,
-    image: "./images/foodapp/Screenshot (32).PNG",
+    image: "./images/prolinks/32.PNG",
   },
   {
     id: 7,
-    image: "./images/foodapp/Screenshot (33).PNG",
+    image: "./images/prolinks/33.PNG",
   },
   {
     id: 7,
-    image: "./images/foodapp/Screenshot (34).PNG",
+    image: "./images/prolinks/34.PNG",
   },
   {
     id: 7,
-    image: "./images/foodapp/Screenshot (35).PNG",
+    image: "./images/prolinks/35.PNG",
+  },
+  {
+    id: 7,
+    image: "./images/prolinks/36.PNG",
+  },
+  {
+    id: 7,
+    image: "./images/prolinks/37.PNG",
+  },
+  {
+    id: 7,
+    image: "./images/prolinks/38.PNG",
+  },
+  {
+    id: 7,
+    image: "./images/prolinks/39.PNG",
+  },
+  {
+    id: 7,
+    image: "./images/prolinks/40.PNG",
+  },
+  {
+    id: 7,
+    image: "./images/prolinks/41.PNG",
   },
   
 ];
