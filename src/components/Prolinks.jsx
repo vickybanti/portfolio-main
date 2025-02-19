@@ -4,71 +4,71 @@ import styled from "styled-components";
 const projects = [
   {
     id: 1,
-    image: "./images/prolinks/24.PNG",
+    image: "./images/prolinks/24.png",
   },
   {
     id: 2,
-    image: "./images/prolinks/25.PNG",
+    image: "./images/prolinks/25.png",
   },
   {
     id: 3,
-    image: "./images/prolinks/26.PNG",
+    image: "./images/prolinks/26.png",
   },
   {
     id: 4,
-    image: "./images/prolinks/27.PNG",
+    image: "./images/prolinks/27.png",
   },
   {
     id: 5,
-    image: "./images/prolinks/28.PNG",
+    image: "./images/prolinks/28.png",
   },
   {
     id: 6,
-    image: "./images/prolinks/29.PNG",
+    image: "./images/prolinks/29.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/31.PNG",
+    image: "./images/prolinks/31.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/32.PNG",
+    image: "./images/prolinks/32.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/33.PNG",
+    image: "./images/prolinks/33.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/34.PNG",
+    image: "./images/prolinks/34.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/35.PNG",
+    image: "./images/prolinks/35.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/36.PNG",
+    image: "./images/prolinks/36.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/37.PNG",
+    image: "./images/prolinks/37.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/38.PNG",
+    image: "./images/prolinks/38.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/39.PNG",
+    image: "./images/prolinks/39.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/40.PNG",
+    image: "./images/prolinks/40.png",
   },
   {
     id: 7,
-    image: "./images/prolinks/41.PNG",
+    image: "./images/prolinks/41.png",
   },
   
 ];
