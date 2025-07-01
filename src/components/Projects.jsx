@@ -4,8 +4,9 @@ import Store from "./Store";
 import Web3 from "./Web3";
 import AI from "./AI";
 import Prolinks from "./Prolinks";
+import Bank from "./Bank";
 
-const data = ["E-commerce Site", "PERN Shopping", "Food App", "prolinks"];
+const data = ["E-commerce Site", "PERN Shopping", "Food App","Bank app", "prolinks"];
 
 const Section = styled.div`
   height: 100vh;
@@ -148,6 +149,9 @@ function Projects() {
                       work === "Food App" ? (
                           <AI />
                       ) :
+                      work === "Bank app"? (
+                        <Bank />
+                      ):
           (
             <Prolinks />
           )}
