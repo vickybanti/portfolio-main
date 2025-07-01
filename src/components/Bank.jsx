@@ -4,23 +4,23 @@ import styled from "styled-components";
 const projects = [
   {
     id: 1,
-    image: "./images/bank/1.PNG",
+    image: "./images/bank/1.png",
   },
   {
     id: 2,
-    image: "./images/bank/2.PNG",
+    image: "./images/bank/2.png",
   },
   {
     id: 3,
-    image: "./images/bank/3.PNG",
+    image: "./images/bank/3.png",
   },
   {
     id: 4,
-    image: "./images/bank/4.PNG",
+    image: "./images/bank/4.png",
   },
   {
     id: 5,
-    image: "./images/bank/5.PNG",
+    image: "./images/bank/5.png",
   },
  
 ];

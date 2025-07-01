@@ -6,7 +6,7 @@ import AI from "./AI";
 import Prolinks from "./Prolinks";
 import Bank from "./Bank";
 
-const data = ["E-commerce Site", "PERN Shopping", "Food App","Bank app", "prolinks"];
+const data = ["Bank app", "prolinks","PERN Shopping", "Food App","E-commerce Site"];
 
 const Section = styled.div`
   height: 100vh;
