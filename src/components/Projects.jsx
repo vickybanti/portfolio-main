@@ -7,7 +7,7 @@ import Prolinks from "./Prolinks";
 import Bank from "./Bank";
 import Classroom from "./Classroom";
 
-const data = ["classroom", "prolinks","Food App","PERN Shopping","Bank app","E-commerce Site"];
+const data = ["Classroom", "Prolinks","Yoom","Food App","PERN Shopping","Bank app","E-commerce Site"];
 
 const Section = styled.div`
   height: 100vh;
@@ -150,9 +150,12 @@ function Projects() {
                       work === "Food App" ? (
                           <AI />
                       ) :
-                          work === "classroom" ? (
+                          work === "Classroom" ? (
                               <Classroom />
                               ) :
+                              work === "Yoom" ? (
+                                      <Yoom />
+                                  ) :
                       work === "Bank app"? (
                         <Bank />
                       ):
