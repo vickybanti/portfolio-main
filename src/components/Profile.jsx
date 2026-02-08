@@ -165,7 +165,7 @@ const Subtitle = styled.h2`
 `;
 
 const Desc = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   line-height: 1.3;
   color: lightgray;
 
