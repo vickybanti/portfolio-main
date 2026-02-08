@@ -6,6 +6,7 @@ import AI from "./AI";
 import Prolinks from "./Prolinks";
 import Bank from "./Bank";
 import Classroom from "./Classroom";
+import Yoom from "./Yoom";
 
 const data = ["Classroom", "Prolinks","Yoom","Food App","PERN Shopping","Bank app","E-commerce Site"];
 
@@ -61,7 +62,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   cursor: pointer;
   color: transparent;
