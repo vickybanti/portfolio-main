@@ -132,7 +132,7 @@ const Subtitle = styled.h2`
 `;
 
 const Desc = styled.p`
-  font-size: 20px;
+  font-size: 15px;
   color: lightgray;
   line-height: 1.5;
   @media only screen and (max-width: 768px) {
