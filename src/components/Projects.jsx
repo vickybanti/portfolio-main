@@ -5,8 +5,9 @@ import Web3 from "./Web3";
 import AI from "./AI";
 import Prolinks from "./Prolinks";
 import Bank from "./Bank";
+import Yoom from "./Yoom";
 
-const data = ["classroom", "prolinks","Food App","Bank app","E-commerce Site", "PERN Shopping", ];
+const data = ["Classroom", "Prolinks","Yoom","Food App","Bank app","E-commerce Site", "PERN Shopping", ];
 
 const Section = styled.div`
   height: 100vh;
@@ -60,7 +61,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   cursor: pointer;
   color: transparent;
@@ -140,9 +141,14 @@ function Projects() {
           </List>
         </Left>
         <Right>
-          {work === "E-commerce Site" ? (
+          {
+              work === "Classroom" ? (
+                  <Classroom />
+              ) :
+
+              work === "E-commerce Site" ? (
             <Store />
-                  ) : 
+                  ) :
                       work === "PERN Shopping" ? (
                           <Web3 />
                       ) :
@@ -151,7 +157,9 @@ function Projects() {
                       ) :
                       work === "Bank app"? (
                         <Bank />
-                      ):
+                      ): work === "Yoom"? (
+                              <Yoom />
+                          ):
           (
             <Prolinks />
           )}
