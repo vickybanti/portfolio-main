@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Store from "./Store";
-import Web3 from "./Web3";
 import AI from "./AI";
 import Prolinks from "./Prolinks";
 import Bank from "./Bank";
@@ -146,6 +145,7 @@ function Projects() {
         </Left>
         <Right>
           {work === "E-commerce Site" ? (
+            
             <Store />
                   ) : 
                       work === "Dentist" ? (
