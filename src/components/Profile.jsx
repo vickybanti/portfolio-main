@@ -331,7 +331,7 @@ function Profile() {
             <Skill>Node.js</Skill>, <Skill>React</Skill>,{" "}
             <Skill>Express.js</Skill>, <Skill>Redux</Skill>,{" "}
             <Skill>MongoDB</Skill>, <Skill>Material-UI</Skill>,{" "}
-            <Skill>Bootstrap</Skill>, <Skill>Styled-Components</Skill>,
+            <Skill>Shadcn and Acertainty UI</Skill>, <Skill>Styled-Components</Skill>,
             <Skill>Tailwind Css</Skill>, <Skill>JWT</Skill>, <Skill>Python</Skill>.
             <Skill>Git</Skill>,<Skill>Sass</Skill>, <Skill>Firebase</Skill>, I am a highly versatile web developer. I
             excel in crafting well-structured web pages, creating dynamic user
