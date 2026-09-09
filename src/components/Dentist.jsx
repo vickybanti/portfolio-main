@@ -2,32 +2,46 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const projects = [
-   {
-        id: 5,
-        image: "./images/yoom/7.PNG",
-    },
     {
         id: 1,
-        image: "./images/yoom/1.PNG",
+        image: "./images/dentist/1.png",
     },
     {
         id: 2,
-        image: "./images/yoom/2.PNG",
+        image: "./images/dentist/2.png",
     },
-    {
-        id: 3,
-        image: "./images/yoom/3.PNG",
-    },
+    
     {
         id: 4,
-        image: "./images/yoom/4.PNG",
+        image: "./images/dentist/4.png",
     },
    
     {
         id: 6,
-        image: "./images/yoom/6.PNG",
+        image: "./images/dentist/6.png",
     },
-
+   
+    {
+        id: 8,
+        image: "./images/dentist/8.png",
+    },
+   
+    {
+        id: 10,
+        image: "./images/dentist/10.png",
+    },
+    {
+        id: 11,
+        image: "./images/dentist/11.png",
+    },
+    {
+        id: 12,
+        image: "./images/dentist/12.png",
+    },
+    {
+        id: 13,
+        image: "./images/dentist/13.png",
+    },
 
 ];
 const CarouselContainer = styled.div`
@@ -249,7 +263,7 @@ const Desc = styled.p`
   }
 `;
 
-function Yoom() {
+function Dentist() {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const handlePrevClick = () => {
@@ -284,26 +298,26 @@ function Yoom() {
                 </CarouselContainer>
                 <Details>
                     <a
-                        href="https://meetings-amber.vercel.app/"
+                        href="https://dentwise-vkat.vercel.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ textDecoration: "none", textTransform: "uppercase" }}
                     >
-                        <CardTitle>Zoom Clone</CardTitle>
+                        <CardTitle>AI Dental care app</CardTitle>
                     </a>
                     <Desc>
-                        A Video Conferencing app for setting and joining meeting, private chat room included.
+                        An AI-powered dental care app for managing appointments and patient records, providing a seamless experience for both dentists and patients. Built with Next js, typescript, Node js.
                     </Desc>
                     <ProjectLinks>
                         <a
-                            href="https://github.com/vickybanti/Meetings.git"
+                            href="https://github.com/vickybanti/Dentwise.git"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <Link src="./images/github.png" />
                         </a>
                         <a
-                            href="https://meetings-amber.vercel.app/"
+                            href="https://classroom-two-kappa.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -316,4 +330,4 @@ function Yoom() {
     );
 }
 
-export default Yoom;
+export default Dentist;

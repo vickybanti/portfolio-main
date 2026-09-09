@@ -141,7 +141,7 @@ const CardImage = styled.img`
   border-radius: 1.25rem;
 `;
 const CardTitle = styled.h3`
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #da4ea2;
   cursor: pointer;
   @media only screen and (max-width: 420px) {
@@ -269,7 +269,7 @@ const Details = styled.div`
 `;
 
 const Desc = styled.p`
-  font-size: 1.2em;
+  font-size: 0.8em;
   line-height: 1.2;
   color: lightgray;
   text-align: center;

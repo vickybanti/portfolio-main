@@ -7,8 +7,9 @@ import Prolinks from "./Prolinks";
 import Bank from "./Bank";
 import Classroom from "./Classroom";
 import Yoom from "./Yoom";
+import Dentist from "./Dentist";
 
-const data = ["Classroom", "Prolinks","Yoom","Food App","PERN Shopping","Bank app","E-commerce Site"];
+const data = ["Dentist", "Prolinks","Yoom","Food App","Classroom","Bank app","E-commerce Site"];
 
 const Section = styled.div`
   height: 100vh;
@@ -25,6 +26,7 @@ const Container = styled.div`
   width: 75rem;
   display: flex;
   justify-content: space-between;
+  
 
   @media only screen and (max-width: 768px) {
     width: 100%;
@@ -41,6 +43,7 @@ const Left = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
+  margin-top: 20px;
 
   @media only screen and (max-width: 768px) {
     flex: 1;
@@ -62,7 +65,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
   color: transparent;
@@ -145,8 +148,8 @@ function Projects() {
           {work === "E-commerce Site" ? (
             <Store />
                   ) : 
-                      work === "PERN Shopping" ? (
-                          <Web3 />
+                      work === "Dentist" ? (
+                          <Dentist />
                       ) :
                       work === "Food App" ? (
                           <AI />

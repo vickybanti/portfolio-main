@@ -221,7 +221,7 @@ const Details = styled.div`
 `;
 
 const Desc = styled.p`
-  font-size: 1.2em;
+  font-size: 0.8em;
   line-height: 1.2;
   color: lightgray;
   text-align: center;

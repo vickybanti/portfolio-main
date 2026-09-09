@@ -197,7 +197,7 @@ function Navbar() {
                   </TwitterButton>
                 </Link>
                 <Link
-                  href="https://www.linkedin.com/in/olamuyiwaV"
+                  href="https://www.linkedin.com/in/victor-olamuyiwa-200008415/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -207,7 +207,7 @@ function Navbar() {
                   </LinkedInButton>
                 </Link>
                 <Link
-                                  href="https://github.com/vickybanti/"
+                  href="https://github.com/vickybanti/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -221,13 +221,12 @@ function Navbar() {
           </List>
         </Links>
         <Icons>
-          <Link
-                      href="https://docs.google.com/document/d/1MldjLofHmZolOMOur0DD0RcSl-eoYGnAuGnyo2U7_Sw/edit?usp=sharing"
-target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a
+  href="/files/Olamuyiwa_Victor_Tope_IT.pdf"
+  download="Olamuyiwa_Victor_Tope_IT.pdf"
+>
             <StyledButton>View Resume</StyledButton>
-          </Link>
+          </a>
         </Icons>
       </Container>
     </Section>
